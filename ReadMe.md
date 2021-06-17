@@ -22,7 +22,7 @@ The blog contains 3 folders and 2 files:
     * contains one file **"app.js"** wich Contains page interaction codes.
 
 - **index.html** : Front page structure and interface.
--**ReadMe.md**: This is what you see now :blush: :wink:
+- **ReadMe.md**: This is what you see now :blush: :wink:
 
 ## Expected from project:
 
