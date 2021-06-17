@@ -105,7 +105,10 @@ mybutton.addEventListener("click", function topFunction() {
 const nav = document.getElementById("nav-bar");
 
 var timer = null;
-window.addEventListener('scroll', function() {
+
+window.addEventListener('scroll', HideNavBar, false);;
+
+function HideNavBar() {
     if(timer !== null) {
         clearTimeout(timer);
         nav.style.display = "block";
@@ -113,4 +116,4 @@ window.addEventListener('scroll', function() {
     timer = setTimeout(function() {
         nav.style.display = "none";
     }, 5000);
-}, false);
+}
