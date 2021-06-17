@@ -13,13 +13,13 @@ This project requires us to build a multi-section landing page, with a dynamical
 The blog contains 3 folders and 2 files:
 
 - First folder "css":
-    contains 2 files:
+    * contains 2 files:
         1. **all.min.css**: I use it for Font Awsome.
         2. **style.css**: the style of the page.
 - Second folder **"images"** :
-    contains all images that i used in the page.
+    * contains all images that i used in the page.
 - Third folder **js**:
-    contains one file **"app.js"** wich Contains page interaction codes.
+    * contains one file **"app.js"** wich Contains page interaction codes.
 
 - **index.html** : Front page structure and interface.
 -**ReadMe.md**: This is what you see now :blush: :wink:
