@@ -106,7 +106,7 @@ const nav = document.getElementById("nav-bar");
 
 var timer = null;
 
-window.addEventListener('scroll', HideNavBar, false);;
+window.addEventListener('scroll', HideNavBar, false);
 
 function HideNavBar() {
     if(timer !== null) {
