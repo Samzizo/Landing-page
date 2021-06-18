@@ -4,15 +4,15 @@ const unorderList = document.getElementById("link");
 const navbar = ["Section1", "Section2" , "Section3", "Section4", "section5"];
 const sections = document.querySelectorAll("section");
 
-for (const i in navbar) {
-    var listItemes = document.createElement("li");
-    var link = document.createElement("a");
-    var title = document.createTextNode(navbar[i]);
+navbar.forEach((element) => {
+    const listItemes = document.createElement("li");
+    const link = document.createElement("a");
+    const title = document.createTextNode(element);
     link.appendChild(title);
-    link.href = "#" + navbar[i].toLocaleLowerCase();
+    link.href = "#" + element.toLocaleLowerCase();
     listItemes.appendChild(link);
     unorderList.appendChild(listItemes);    
-}
+});
 
 // scroll behavior
 
@@ -66,10 +66,10 @@ function ActiveSection(){
 
 var coll = document.getElementsByClassName("collapsible");
 
-for (var i = 0; i < coll.length; i++) {
+for (let i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    const content = this.nextElementSibling;
     if (content.style.display === "block") {
         content.style.display = "none";
     } else {
@@ -104,7 +104,7 @@ mybutton.addEventListener("click", function topFunction() {
 
 const nav = document.getElementById("nav-bar");
 
-var timer = null;
+let timer = null;
 
 window.addEventListener('scroll', HideNavBar, false);
 
