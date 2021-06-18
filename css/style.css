@@ -8,7 +8,10 @@ body {
 }
 
 .act {
-    background-color: #444;
+    background: linear-gradient(180deg, #275261, #95a6ac, #ac5d4d);
+    border-radius: 15px;
+    padding: 5px;
+
 }
 
 .active {
@@ -23,7 +26,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #275261;
+    background: linear-gradient(45deg, #1f404d, #758286, #9e5546);
     color: white;
     cursor: pointer;
     padding: 15px;
